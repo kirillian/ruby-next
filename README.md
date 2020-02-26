@@ -252,9 +252,9 @@ require "ruby-next/language/bootsnap"
 
 **NOTE:** there is no way to invalidate the cache when you upgrade Ruby Next (e.g., due to the bug fixes), so you should do this manually.
 
-## `uby-next`
+## `ruby-next`
 
-You can also enable runtime mode by requiring `uby-next` while running a Ruby executable:
+You can also enable runtime mode by requiring `ruby-next` while running a Ruby executable:
 
 ```sh
 ruby -ruby-next my_ruby_script.rb
